@@ -1,0 +1,97 @@
+@import "colors";
+
+/* Schriften
+
+Barlow
+  Light 300
+
+Didact Gothic
+  Regular 400
+
+ROBOTO
+  Regular 400
+  Regular 400 italic
+  Bold 700
+  Bold 700 italic
+
+*/
+
+body, html{
+  font-size: 16px;
+}
+
+
+$font-title: Barlow, 'Barlow-Regular', Times, 'Times New Roman', Georgia, serif;
+$font-menu: 'Didact Gothic', Roboto, 'Open Sans', 'Helvetica Neue', Helvetica,
+Verdana, Arial, sans-serif;
+$font-text: 'Roboto-Light', Roboto, 'Open Sans', 'Helvetica Neue', Helvetica,
+Verdana, Arial, sans-serif;
+
+$font-light: 300;
+$font-regular: 400;
+$font-bold: 700;
+
+
+@mixin font-text {
+  font-family: $font-text;
+  font-style: normal;
+  font-weight: $font-light;
+  font-size: 1em;
+  letter-spacing: 0.005em;
+  line-height: 1.55em;
+  color: $color-text;
+
+  //  color: yellow; // debug
+}
+
+@mixin font-teaser {
+  font-family: $font-text;
+  font-size: 1em;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  font-weight: $font-bold;
+  line-height: 1.5em;
+  color: $color-text;
+
+  //  color: orange; // debug
+}
+
+
+@mixin font-menu {
+  font-family: $font-menu;
+  font-style: normal;
+  font-weight: $font-regular;
+  color: $mollo-accent;
+
+  //  color: #943bec; // debug
+}
+
+@mixin font-title {
+  font-family: $font-title;
+  font-style: normal;
+  font-weight: $font-regular;
+  color: $mollo-accent;
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  // color: green; // debug
+}
+
+
+
+
+@mixin font-label {
+  font-family: $font-text;
+  font-style: italic;
+  font-weight: $font-regular;
+  color: $color-text-label;
+  font-size: 0.95em;
+}
+
+@mixin font-info {
+  font-family: $font-text;
+  font-style: italic;
+  font-weight: $font-regular;
+  color: $color-text-label;
+  font-size: 0.95em;
+}

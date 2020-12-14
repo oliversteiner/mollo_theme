@@ -1,0 +1,107 @@
+@import 'colors';
+@import 'fonts';
+
+h1 {
+  @include font-title;
+  margin-bottom: 40px;
+  font-size: 2.3em;
+}
+
+body h2,
+body .views-edit-view .unit-title h2 {
+  @include font-title;
+}
+
+h3 {
+  @include font-text;
+  margin-top: 30px;
+}
+
+.teaser,
+.typo-teaser,
+.typo-teaser p,
+.typo-teaser div {
+  @include font-teaser;
+
+}
+
+.typo-meta {
+  @include font-label;
+}
+
+.label {
+  @include font-label;
+}
+
+small {
+  @include font-info;
+}
+
+address {
+  @include font-info;
+}
+
+i {
+  font-style: italic;
+}
+
+p{
+  margin: 0.6em 0;
+}
+
+body,
+div,
+p,
+ul,
+table,
+td,
+th,
+li {
+  @include font-text;
+}
+
+a,
+a.link,
+a h1,
+a h2 {
+  text-decoration: none;
+  color: $color-link;
+
+  i,
+  svg {
+    margin-right: 5px;
+  }
+
+  &:hover {
+    color: $color-link-hover;
+    text-decoration: none;
+  }
+
+  &:active {
+    color: $color-link-active;
+  }
+
+  &:visited {
+    color: $color-link;
+  }
+}
+
+.no-break,
+.no-wrap,
+.name {
+  white-space: nowrap;
+}
+
+// 2 Column Text with hyphens on bigger devices
+@media (min-width: 768px) {
+.spalten-text,
+  .mollo-column {
+    column-count: 2;
+    column-gap: 2rem;
+    hyphens: auto;
+
+    p {
+      margin-top: 0;
+    }
+  }
+}

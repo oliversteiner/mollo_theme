@@ -1,0 +1,16 @@
+mollo:
+  css:
+    theme:
+      dist/css/mollo_theme.css: { minified: true }
+  js:
+    dist/js/mollo_theme.js: { minified: true }
+
+simple_site:
+  css:
+    theme:
+      dist/css/simple_site.css: { minified: true }
+
+fonts:
+  css:
+    theme:
+      //fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap: { type: external}

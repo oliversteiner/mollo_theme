@@ -1,0 +1,101 @@
+@import "../design/colors";
+
+
+.footer-logo {
+  display: block;
+  position: absolute;
+  width: 80px;
+  height: auto;
+  margin-top: -80px;
+}
+
+.region-footer {
+  font-size: 0.8rem;
+}
+
+.footer-top {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 2rem;
+}
+
+
+.region-footer-left {
+  display: flex;
+  padding-left: 6rem;
+  margin-right: 3rem;
+}
+
+.region-footer-right {
+  display: flex;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 6rem;
+}
+
+
+//  Responsive
+
+@media (min-width: 976px) {
+
+  body .region.layout-container.mollo-footer {
+    margin: 0;
+    background-color: $color-background;
+    padding: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+
+  body .region.layout-container.mollo-footer {
+    margin: 0;
+    background-color: $color-background;
+    padding: 3rem;
+  }
+  .footer-bottom {
+    padding-left: 7rem;
+  }
+  .region-footer-left {
+    padding-left: 7rem;
+  }
+}
+
+@media (max-width: 767.9px) {
+
+  .footer-logo {
+  width: 70px;
+  }
+
+    body .region.layout-container.mollo-footer {
+    margin: 0;
+    background-color: $color-background;
+    padding: 2rem;
+  }
+
+  .footer-top {
+    flex-wrap: wrap;
+    padding-top: 3rem;
+
+  }
+
+
+  .footer-bottom {
+    padding-left: 0;
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+  .region-footer-left {
+    padding-left: 0;
+    padding-bottom: 2.5rem;
+  }
+  .region-footer-right {
+    padding-left: 0;
+    padding-bottom: 2.5rem;
+  }
+}

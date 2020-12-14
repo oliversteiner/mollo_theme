@@ -1,0 +1,95 @@
+$color-background: #0B2A2C;
+$color-stroke-dark: #124648;
+
+$color-bright: #e9e9e9;
+$color-icon-on-dark: #279AA2;
+
+// Accent
+
+$mollo-accent: #279AA2;
+$mollo-accent-stroke: #124648;
+$mollo-accent-medium: #1d747a;
+$mollo-accent-light: #33c9d4;
+$mollo-accent-dark: #0B2A2C;
+
+$mollo-secondary: rgb(168, 168, 168);
+$mollo-secondary-light: rgb(229, 229, 229);
+$mollo-secondary-dark: rgb(92, 92, 92);
+$mollo-line: rgb(226, 226, 226);
+
+
+// Text
+
+$color-text: #bebebe;
+$color-text-label: #808080;
+$color-text-meta: rgb(132, 132, 132);
+$color-text-title: rgb(146, 32, 63);
+$color-text-sub-title: rgb(89 , 89, 89);
+$color-text-section: rgb(155 , 155, 155);
+$color-text-invert: rgb(240, 240, 240);
+$color-text-on-dark: rgb(210, 210, 210);
+
+
+// Links
+$color-link: $mollo-accent;
+$color-link-hover: rgb(207, 207, 207);
+$color-link-active: rgb(207, 207, 207);
+$color-link-visited: $mollo-accent-medium;
+
+
+// Layout
+$color-divider: #afafaf;
+$color-border-table: #e4e0e0;
+$color-background-hover: #d6d6d6;
+
+// Color Buttons
+// -- default
+$color-button-text: #9f9f9f;
+$color-button-background: transparent;
+$color-button-border: #e4e4e4;
+
+// -- :hover
+$color-button-text-hover: #4d4d4d;
+$color-button-background-hover: #e4e4e4;
+$color-button-border-hover: #bbbbbb;
+
+// -- :active
+$color-button-text-active: #c8c8c8;
+$color-button-background-active: #313131;
+$color-button-border-active: #dfdfdf;
+
+// -- .active
+$color-button-text-currently-active: #434343;
+$color-button-background-currently-active: #d4d4d4;
+$color-button-border-currently-active: #dfdfdf;
+
+// -- .active:hover
+$color-button-text-active-hover: #c8c8c8;
+$color-button-background-active-hover: #313131;
+$color-button-border-active-hover: #313131;
+
+// OK
+$color-success: #0f7f34;
+
+$color-success-border: #2eb741;
+$color-success-background: #daffd4;
+$color-success-text: #0f7f34;
+$color-success-hover: #76c875;
+
+// Warning
+$color-warning: #ffbd57;
+
+$color-warning-border: #ffd29b;
+$color-warning-background: #fff8cf;
+$color-warning-hover: #e9cea5;
+$color-warning-text: #7f5930;
+
+$color-working: #7f5930;
+
+// Error
+$color-error: #a2132b;
+
+$color-error-border: #ffb4aa;
+$color-error-background: #ffe6e5;
+$color-error-hover: #bf9f9d;
+$color-error-text: #a2132b;

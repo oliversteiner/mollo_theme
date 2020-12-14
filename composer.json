@@ -1,0 +1,28 @@
+{
+    "name": "drupal/mollo-theme",
+    "description": "Theme Starter for Mollo based Drupal Sites.",
+    "type": "drupal-theme",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://github.com/oliversteiner/mollo_theme",
+    "support": {
+        "issues": "https://github.com/oliversteiner/mollo_theme/issues",
+        "source": "https://github.com/oliversteiner/mollo_theme/"
+    },
+    "authors": [
+        {
+            "name": "Oliver Steiner",
+            "homepage": "https://mollo.ch",
+            "role": "Maintainer"
+        }
+    ],
+
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+        "drupal/gin": "^1.0@beta"
+    }
+}

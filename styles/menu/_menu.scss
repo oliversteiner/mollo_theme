@@ -1,0 +1,38 @@
+@import "../design/colors";
+
+.menu-item--active-trail a {
+  color: white;
+}
+
+.menu--main,
+.menu--phone,
+.menu--social-media,
+.menu--what-we-do,
+.menu--footer,
+#menu--mollo-main,
+#menu--mollo-account,
+#menu--what-we-do {
+  .menu-item {
+    //  border: 1px solid $color-stroke-dark; // debug
+    padding: 5px;
+    display: flex;
+  }
+
+  .menu-item a {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+  }
+
+  .menu-item a > svg {
+    margin-right: 5px;
+    width: 20px;
+    position: absolute;
+  }
+
+  .menu-item a .link-text {
+    margin-left: 25px;
+  }
+
+
+}

@@ -1,0 +1,68 @@
+@import "design/colors";
+@import "design/typography";
+// layout
+@import "layout/footer";
+
+// navigation
+@import "menu/menu";
+@import "menu/menu-footer";
+@import "menu/menu-main";
+@import "menu/menu-phone";
+@import "menu/menu-social-media";
+@import "menu/menu-account";
+
+// views
+@import "views/view_what_we_do_werbetechnik";
+@import "views/view_what_we_do_design";
+@import "views/view_what_we_do_car_wrap";
+
+body {
+  background: url("../media/background/mollo-background.jpg") !important;;
+}
+
+.region-sticky {
+  background: transparent !important;
+}
+
+.field--name-field-media-image-1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#block-mollo-theme-account-menu {
+  li.menu-item {
+    list-style-type: none;
+  }
+}
+
+.path-frontpage .region.region-sticky {
+  height: 44px;
+}
+
+
+ul.menu a.is-active {
+  color: white;
+}
+
+//  Responsive
+
+@media (min-width: 976px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (max-width: 767.9px) {
+
+}
+
+
+
+#menu--mollo-main{
+  background: rgba( 0,0, 0, 0.8);
+  filter:blur();
+  padding: 10px;
+  border-radius: 10px;
+}
