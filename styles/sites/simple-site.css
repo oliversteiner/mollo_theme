@@ -1,0 +1,29 @@
+/*
+ *  --------- Simple Page ---------
+ */
+.page-node-type-page #block-mollo-theme-content {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .page-node-type-page .field--type-text-with-summary {
+    max-width: 660px;
+  }
+  .page-node-type-page .field--type-text-with-summary p {
+    margin-top: 0;
+  }
+}
+@media (max-width: 767.9px) {
+  .page-node-type-page .field--name-field-titelbild {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+  .page-node-type-page .field--name-field-subtitle,
+.page-node-type-page .field--name-field-teaser,
+.page-node-type-page .field--type-text-with-summary {
+    padding: 0 1rem;
+    hyphens: auto;
+  }
+}
+
+/*# sourceMappingURL=simple-site.css.map */
